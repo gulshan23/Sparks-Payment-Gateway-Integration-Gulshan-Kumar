@@ -1,0 +1,95 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    position: relative;
+    top: -3px;
+    background-image: url('../images/donation-page.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    
+}
+
+.headText {
+    margin-left: 4rem;
+    margin-top: 0.8rem;
+    color: white;
+    position: absolute;
+    left: 20px;
+    transform: translate(10px, -50%);
+    transition: 1000ms linear;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    list-style: none;
+    height: 100%;
+    width: 25%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.navlinks li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.navlinks li:hover {
+   text-decoration-line: underline ;
+   line-height: 15px;
+}
+
+.links {
+    text-decoration: none ;
+    font-size: 1rem;
+    color: black;
+}*/
+
+form {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    transform: translate(10px, -50%);
+    transition: 1000ms linear
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(18, 22, 3) ;
+    font-size: 1.5rem;
+}
+
+.form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(42, 237, 237);
+    color: rgb(8, 8, 8);
+  }
